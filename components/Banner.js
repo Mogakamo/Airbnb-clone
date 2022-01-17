@@ -8,11 +8,16 @@ function Banner() {
         src="https://links.papareact.com/0fm"
         objectFit="cover"
         layout="fill"
+        alt="hero"
       />
       <div className="absolute top-1/2 w-full text-center">
-          <p className="text-sm sm:text-lg">Not sure where to go? Perfect</p>
-          <button type="" className="bg-white border-2 text-purple-500 px-10 py-4 shadow-md rounded-full font-bold my-3
-                hover:shadow-xl active:scale-90 transition duration-150 ease-out">I'm flexible</button>
+        <p className="text-sm sm:text-lg">Not sure where to go? Perfect</p>
+        <button
+          className="bg-white border-2 text-purple-500 px-10 py-4 shadow-md rounded-full font-bold my-3
+                hover:shadow-xl active:scale-90 transition duration-150 ease-out"
+        >
+          I`m flexible
+        </button>
       </div>
     </div>
   );
